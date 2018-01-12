@@ -1,0 +1,7 @@
+name: winterschlaf
+version: 1.0-SNAPSHOT
+description: A hibernate database plugin.
+author: psygate
+main: com.github.projectrake.winterschlaf.WinterschlafPlugin
+prefix: winterschlaf
+default-permission: op

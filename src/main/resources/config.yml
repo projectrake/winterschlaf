@@ -1,0 +1,15 @@
+autoDiscovery: true
+
+hibernateSettings:
+  hibernate.current_session_context_class:  thread
+  hibernate.show_sql: true
+  hibernate.dialect: org.hibernate.dialect.MariaDBDialect
+  hibernate.connection.provider_class: com.zaxxer.hikari.hibernate.HikariConnectionProvider
+  hibernate.hikari.minimumIdle: 5
+  hibernate.hikari.maximumPoolSize: 10
+  hibernate.hikari.idleTimeout: 30000
+  hibernate.hikari.dataSourceClassName: org.mariadb.jdbc.MariaDbDataSource
+  hibernate.hikari.dataSource.url: "jdbc:mariadb://localhost/rakedev"
+  hibernate.hikari.dataSource.user: rakedev
+  hibernate.hikari.dataSource.password: rakedev
+  hibernate.hbm2ddl.auto: update
